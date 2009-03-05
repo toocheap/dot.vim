@@ -1,0 +1,102 @@
+#contents
+
+* Express5800 110Ge
+
+** 構築方針
+
+基本的には、お勉強サーバではあるものの実用部分も求めたいので、
+
+- お勉強用サーバはVMware上で構築
+- 実サービスはホスト側で提供する
+
+こととする。24h運用を目指すためそこそこの耐障害性を持たせたい。
+
+** 実装するサービス
+
+- DNSキャッシュサーバ
+- ローカルDNS
+
+つUnbound
+
+- SMB/CIFS
+
+つSamba
+
+- NFS
+
+つNFSサーバ
+
+- iSCSI
+
+つiscsi-target
+
+- 迷い中
+-- NISは？LDAPにする？
+-- AppleTalkは？いる？
+
+** ハードウェア構成
+
+- CPU
+
+Intel Core2 Quad Q8200 → Q9400
+CPUクーラーは付属品。すこしうるさい？
+
+- Memory
+
+DDR3-6400 2GB *4 = 8GB
+
+- HDD
+
+今のところ、ありもののHDDを突っ込んで構築。最終的には1TB*4とかにしてファイルサーバとして充実させてたい。
+問題はパーティションの切り方。LVMのおかげで切り方悩みまくり。
+
+とりあえず現行の構成
+
+- HDD 80GB Seagate ST380815AS
+- HDD 120GB Seagate ST3120026AS
+- HDD 250GB Maxtor 6B250R0
+- HDD 250GB Maxtor 7Y250P0
+
+試しにUSB HDDのテスト用に接続
+- USB HDD 120GB ST912082
+
+>
+ COMA /home/too% cat /proc/scsi/scsi 
+ Attached devices:
+ Host: scsi0 Channel: 00 Id: 00 Lun: 00
+  Vendor: ATA      Model: ST380815AS       Rev: 4.AA
+  Type:   Direct-Access                    ANSI SCSI revision: 05
+ Host: scsi1 Channel: 00 Id: 00 Lun: 00
+  Vendor: ATA      Model: ST3120026AS      Rev: 3.05
+  Type:   Direct-Access                    ANSI SCSI revision: 05
+ Host: scsi2 Channel: 00 Id: 00 Lun: 00
+  Vendor: ATA      Model: Maxtor 7Y250P0   Rev: YAR4
+  Type:   Direct-Access                    ANSI SCSI revision: 05
+ Host: scsi3 Channel: 00 Id: 00 Lun: 00
+  Vendor: ATA      Model: Maxtor 6B250R0   Rev: BAH4
+  Type:   Direct-Access                    ANSI SCSI revision: 05
+ Host: scsi6 Channel: 00 Id: 00 Lun: 00
+  Vendor: IET      Model: VIRTUAL-DISK     Rev: 0   
+  Type:   Direct-Access                    ANSI SCSI revision: 04
+ Host: scsi7 Channel: 00 Id: 00 Lun: 00
+  Vendor: ST912082 Model:             5RM0 Rev: 3.CA
+  Type:   Direct-Access                    ANSI SCSI revision: 02
+<
+
+** ソフトウェア構成
+
+- 入れたもの
+
+- Unbound
+- VMware Server 2.0
+
+- 遊んでみたいの
+
+-- [[XMBC:http://xbmc.org/]] Xbox media center for linux
+
+[[XMBC 日本語化関係:http://another.maple4ever.net/archives/333/]]
+[[XMBC まとめWiki:http://xbmc.sakura.tv/]]
+[[Linux MCE:http://www.linuxmce.org/]]
+
+
+[[FrontPage]]

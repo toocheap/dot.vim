@@ -1,0 +1,101 @@
+#!/usr/bin/env python
+# -*- coding:utf-8 -*-
+#
+# Python wor/line/characters count
+#
+
+import sys
+import getopt
+import fileinput
+
+class WordCount:
+    def __init__(self, filename):
+        """ Initialize WordCount
+        """
+        self.lines = -1
+        self.words = -1
+        self.chars = -1
+        self._load(filename)
+
+    def chars(self):
+        """ Count number of characters
+        """
+        return self.chars
+
+    def lines(self):
+        """ Count number of lines
+        """
+        return self.lines
+
+    def words(self):
+        """ Count number of words
+        """
+        return self.words
+
+    def _load(self, filename):
+        """ Load file and count characters/lines/words
+        """
+        try:
+            """ Not support in pipe context yet.
+            """
+            fp = open(filename, "r")
+        except IOError, err:
+            print "Cannot open %s: %s\n" % filename, err.strerror
+            fp.close
+
+        lines = fp.readlines()
+        self.lines = len(lines)
+        for l in lines:
+            self.chars += len(l)
+            self.words += len(l.split())
+
+def _usage():
+    """ Normal usage: if -l is set, shows line count instead of word count.
+    """
+    print "pywc.py [-h] [-l] [-f file.txt]\n"
+    """ If pywc.py is used in pipe context, it returns only numeric.
+    """
+    print " xxx | pywc.py\n"
+
+def do_with(filename):
+    wc = WordCount(filename)
+    print "%d %d %d %s\n" % (wc.words, wc.lines, wc.chars, filename)
+
+
+def main():
+    """ Count word/line from text file
+    """
+
+    # Parse options
+    try:
+        opts, args = getopt.getopt(sys.argv[1:], "clhf:")
+    except getopt.GetoptError:
+        _usage()
+        sys.exit(2)
+
+    filename = None
+    for o, v in opts:
+        if o == "-l":
+            countLine = True
+        if o == "-c":
+            countChar = True
+        elif o == "-h":
+            _usage()
+            sys.exit(2)
+
+    if args:
+        for fn in args:
+            try:
+                if fn:
+                    do_with(fn)
+                else:
+                    do_with(sys.stdin)
+            except IOError, err:
+                sys.stderr.write("Can't open %s: %s¥n") % (fn, err)
+                continue
+    else:
+        do_with(sys.stdin)
+
+if __name__ == "__main__":
+    main()
+

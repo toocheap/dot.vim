@@ -1,0 +1,6 @@
+pywc.py file.txt
+file.txt contains 100 words.
+
+pywc.py -l file.txt
+file.txt conains 10 lines.
+

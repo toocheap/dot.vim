@@ -1,0 +1,17 @@
+# 修飾キーをctrl + t
+escape ^Tt
+
+# 最終行のウィンドウ一覧を表示
+hardstatus alwayslastline "%w"
+
+# 最終行に時刻を表示
+hardstatus alwayslastline "[%02c] %`%-w%{=b bw}%n %t%{-}%+w"
+
+# スタートメッセージを表示させない
+startup_message off
+
+# ビープを鳴らさない
+vbell off
+
+autodetach on
+

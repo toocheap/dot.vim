@@ -1,0 +1,9 @@
+use strict;
+use warnings;
+
+print "Hello Perl World¥n";
+print "Hello Perl World¥n";
+printj "Hello Perl World¥n" . $a;
+print "Hello Perl World¥n";
+print "Hello Perl World¥n";
+

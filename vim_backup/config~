@@ -1,0 +1,15 @@
+[core]
+	repositoryformatversion = 0
+	filemode = true
+	bare = false
+	logallrefupdates = true
+	ignorecase = true
+
+[remote "github"]
+    url = git@github.com:toocheap/guthub
+    fetch =  +refs/heads/*:refs/remotes/origin/*
+    push = refs/heads/master:refs/heads/master
+
+[remote "origin"]
+	url = git@github.com:toocheap/github.git
+	fetch = +refs/heads/*:refs/remotes/origin/*

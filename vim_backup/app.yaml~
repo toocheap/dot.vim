@@ -1,0 +1,12 @@
+application: tootest71
+version: 1
+runtime: python
+api_version: 1
+
+handlers:
+- url: .*
+  script: main.py
+
+- url: css/*
+  static_dir: css
+

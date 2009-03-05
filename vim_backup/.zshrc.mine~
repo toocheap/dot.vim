@@ -1,0 +1,76 @@
+export PATH=/opt/local/bin:/opt/local/sbin:/usr/local/bin:/usr/local/sbin:$PATH
+export MANPATH=/opt/local/man:/usr/local/man:$MANPATH
+export DISPLAY=.0:0
+export LANG=ja_JP.UTF-8
+ulimit -c unlimited
+#export PERL5LIB=/System/Library/Perl/5.8.8/darwin-thread-multi-2level:/System/Library/Perl/5.8.8:/Library/Perl/5.8.8/darwin-thread-multi-2level:/Library/Perl/5.8.8:/System/Library/Perl/Extras/5.8.8/darwin-thread-multi-2level:/System/Library/Perl/Extras/5.8.8
+
+function ssh_screen(){
+eval server=?${$#}
+screen -t $server ssh "$@"
+}
+if [ x$TERM = xscreen ]; then
+    alias ssh=ssh_screen
+fi
+
+
+if [ "$TERM" = "screen" ]; then
+    chpwd () { echo -n "^[_`dirs`^[\\" }
+
+
+    preexec() {
+        # see [zsh-workers:13180]
+        # http://www.zsh.org/mla/workers/2000/msg03993.html
+        emulate -L zsh
+        local -a cmd; cmd=(${(z)2})
+        case $cmd[1] in
+            fg)
+            if (( $#cmd == 1 )); then
+                cmd=(builtin jobs -l %+)
+            else
+                cmd=(builtin jobs -l $cmd[2])
+            fi
+            ;;
+            %*)
+            cmd=(builtin jobs -l $cmd[1])
+            ;;
+            cd)
+            if (( $#cmd == 2)); then
+                cmd[1]=$cmd[2]
+            fi
+            ;&
+            *)
+            echo -n "^[k$cmd[1]:t^[\\"
+            prev=$cmd[1]
+            return
+            ;;
+        esac
+
+        local -A jt; jt=(${(kv)jobtexts})
+
+        $cmd >>(read num rest
+        cmd=(${(z)${(e):-\$jt$num}})
+        echo -n "^[k$cmd[1]:t^[\\") 2>/dev/null
+
+        prev=$cmd[1]
+    }
+precmd() {
+    #local prev; prev=`history -1 | sed "s/^[ 0-9]*//" | sed "s/ .*$//"  `
+    echo -n "[k$:$prev^[\\"
+}
+chpwd
+fi
+# dabbrev
+HARDCOPYFILE=$HOME/tmp/screen-hardcopy
+touch $HARDCOPYFILE
+
+dabbrev-complete () {
+    local reply lines=80 # 80行分
+    screen -X eval "hardcopy -h $HARDCOPYFILE"
+    reply=($(sed '/^$/d' $HARDCOPYFILE | sed '$ d' | tail -$lines))
+    compadd - "${reply[@]%[*/=@|]}"
+}
+
+zle -C dabbrev-complete menu-complete dabbrev-complete
+bindkey '^o' dabbrev-complete
+bindkey '^o^_' reverse-menu-complete

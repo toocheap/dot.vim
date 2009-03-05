@@ -1,0 +1,12 @@
+-module(kouyaku).
+-export([kouyaku/1]).
+
+kouyaku(N) ->
+    [ {A, B} |
+        A = lists:seq(1, N),
+        B = lists:seq(1, N),
+        N rem A =:= 0,
+        N rem B =:= 0
+    ].
+
+        

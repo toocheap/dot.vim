@@ -1,0 +1,74 @@
+""" 
+
+How to find similarity
+    - similar tag must has similar url
+    - First, collect url for each tag as tags dic. from own bookmarks.
+        tags = {tag='aaa' urls=('http://aaaa...', 'http://bbb..', ....)}, {...)
+    - Second, check similarity between tags. similarity is added to tags dict.
+        simtags = ({tag='aaa', sim={'bbb'=0.333, 'ccc'=0.999, ....}
+    - Third, 
+
+
+"""
+from recommendations import *
+import pydelicious
+import time
+
+class TagUrl:
+    def __init__(self, tagname):
+        """ Initialize instance value """
+        self.tag = tagname
+        self.urls= self._addUrl()
+
+    def _addUrl(self):
+        """ Set url to urls
+        Discard other tags information here...
+        """
+        posts = {}
+        while posts == {}:
+            try:
+                posts = pydelicious.get_popular(self.tag)
+                #posts = pydelicious.get_tagposts(self.tag)
+                print "  Got popular urls for %s" % self.tag
+                break
+            except:
+                print "  Failed get_tagposts in _addurl, retrying"
+                time.sleep(4)
+
+        self.urls = [u['href'] for u in posts]
+
+class DelTags:
+    def __init__(self, user='too.cheap.jp', passwd='as3n7nvk'):
+        """instantistate"""
+
+        # Get own tags
+        tags = pydelicious.apiNew(user,passwd).tags_get()['tags']
+        print "tags collected. tags has %d tags" % len(tags)
+
+        self.tags = [x['tag'] for x in tags]
+        # init tag urls
+        self.urls = {}
+        for t in self.tags:
+            print "%s initializing..." % t
+            self.urls[t] = TagUrl(t)
+
+
+
+def main():
+    dt = DelTags()
+    print dt.urls
+
+if __name__ == '__main__':
+    main()
+
+
+
+
+
+
+
+
+
+
+
+

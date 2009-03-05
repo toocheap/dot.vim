@@ -1,0 +1,8 @@
+#!/bin/bash
+# create symlink all of dotfile.
+for dotfile in dot.* ; do
+    echo ln -s $(pwd)/${dotfile} ~/${dotfile:3}
+done
+# TODO:check these dir. is exits or not.
+echo mkdir -p ~/.vim/vim_backup
+echo mkdir -p ~/.vim/vim_swap

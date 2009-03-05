@@ -1,0 +1,9 @@
+from recommendations import sim_tanimoto
+from recommendations import critics
+
+for r1 in critics:
+    for r2 in critics:
+        print "%s and %s Sim is : %f" % (r1, r2, sim_tanimoto(ciritics, r1, r2))
+
+
+

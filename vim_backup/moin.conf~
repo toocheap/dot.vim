@@ -1,0 +1,16 @@
+ScriptAlias /moin "/Users/toocheap/Sites/moin/cgi-bin/moin.cgi"
+<Directory "/Users/toocheap/Sites/moin/cgi-bin"
+Options Indexes FollowSymLinks ExecCGI
+AllowOverride None
+Order allow,deny
+Allow from all
+</Directory>
+
+Alias /moin/ "/Users/toocheap/Sites/moin/data"
+<Directory "/Users/toocheap/Sites/moin/data">
+Options Indexes FollowSymLinks
+AllowOverride None
+Order allow,deny
+Allow from all
+</Directory>
+

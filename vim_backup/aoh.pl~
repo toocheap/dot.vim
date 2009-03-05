@@ -1,0 +1,17 @@
+#
+# Amazon Order History
+#
+use strict;
+use warnings;
+use WWW::Mechanize;
+use WWW::Mechanize::AutoPager;
+use Web::Scraper;
+
+my $mech = WWW::Mechanize->new( autocheck => 1);
+$mech->autopager->load_siteinfo();
+
+$mech->get("https://www.amazon.co.jp/gp/css/homepage.html?");
+
+use YAML;
+print Dump $mech->submit_form;
+

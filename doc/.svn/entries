@@ -1,0 +1,1121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="134"
+   name=""
+   committed-date="2008-07-17T14:53:08.184773Z"
+   url="http://cvs.kaoriya.net/svn/vimdoc/trunk/ja"
+   last-author="hopper2"
+   kind="dir"
+   uuid="2a6344c1-96ee-0310-8aa7-9e3c5266f3ef"
+   repos="http://cvs.kaoriya.net/svn/vimdoc"
+   revision="134"/>
+<entry
+   committed-rev="118"
+   name="if_ruby.jax"
+   text-time="2008-10-07T13:55:59.000000Z"
+   committed-date="2007-10-28T13:52:13.043769Z"
+   checksum="9908341f7e070b6855edf6129d3c7073"
+   last-author="koron"
+   kind="file"
+   prop-time="2008-10-07T13:55:57.000000Z"/>
+<entry
+   committed-rev="118"
+   name="if_pyth.jax"
+   text-time="2008-10-07T13:55:59.000000Z"
+   committed-date="2007-10-28T13:52:13.043769Z"
+   checksum="bae4fd5ec21b19f53b561b7a799bb822"
+   last-author="koron"
+   kind="file"
+   prop-time="2008-10-07T13:55:57.000000Z"/>
+<entry
+   committed-rev="118"
+   name="sponsor.jax"
+   text-time="2008-10-07T13:55:59.000000Z"
+   committed-date="2007-10-28T13:52:13.043769Z"
+   checksum="68d1e8bb7da51111288b65c34e563504"
+   last-author="koron"
+   kind="file"
+   prop-time="2008-10-07T13:55:57.000000Z"/>
+<entry
+   committed-rev="118"
+   name="os_vms.jax"
+   text-time="2008-10-07T13:55:59.000000Z"
+   committed-date="2007-10-28T13:52:13.043769Z"
+   checksum="0d3a279436d090e195a02c253c0bf7f9"
+   last-author="koron"
+   kind="file"
+   prop-time="2008-10-07T13:55:57.000000Z"/>
+<entry
+   committed-rev="124"
+   name="term.jax"
+   text-time="2008-10-07T13:55:59.000000Z"
+   committed-date="2008-01-20T07:16:16.477167Z"
+   checksum="d021d75e032480e2751fb27015077f11"
+   last-author="hopper2"
+   kind="file"
+   prop-time="2008-10-07T13:55:57.000000Z"/>
+<entry
+   committed-rev="57"
+   name="evim-ja.UTF-8.1"
+   text-time="2008-10-07T13:55:59.000000Z"
+   committed-date="2006-09-30T02:29:03.873934Z"
+   checksum="73fca36ed58aa6a9d693b62605f6e19f"
+   last-author="hopper2"
+   kind="file"
+   prop-time="2008-10-07T13:55:57.000000Z"/>
+<entry
+   committed-rev="133"
+   name="usr_01.jax"
+   text-time="2008-10-07T13:55:59.000000Z"
+   committed-date="2008-07-16T18:06:55.548210Z"
+   checksum="be5494bb8747c51186c1ea35b0468b59"
+   last-author="hopper2"
+   kind="file"
+   prop-time="2008-10-07T13:55:57.000000Z"/>
+<entry
+   committed-rev="133"
+   name="usr_02.jax"
+   text-time="2008-10-07T13:55:59.000000Z"
+   committed-date="2008-07-16T18:06:55.548210Z"
+   checksum="10364e6bd5d3bdcef90cf05d1c03f451"
+   last-author="hopper2"
+   kind="file"
+   prop-time="2008-10-07T13:55:57.000000Z"/>
+<entry
+   committed-rev="118"
+   name="cmdline.jax"
+   text-time="2008-10-07T13:55:59.000000Z"
+   committed-date="2007-10-28T13:52:13.043769Z"
+   checksum="baa87f3c99de6eb96fdd6d11f899b3b7"
+   last-author="koron"
+   kind="file"
+   prop-time="2008-10-07T13:55:57.000000Z"/>
+<entry
+   committed-rev="133"
+   name="usr_03.jax"
+   text-time="2008-10-07T13:55:59.000000Z"
+   committed-date="2008-07-16T18:06:55.548210Z"
+   checksum="b607d5c61d36a1743c6c9b5e9e82e98d"
+   last-author="hopper2"
+   kind="file"
+   prop-time="2008-10-07T13:55:57.000000Z"/>
+<entry
+   committed-rev="118"
+   name="os_390.jax"
+   text-time="2008-10-07T13:55:59.000000Z"
+   committed-date="2007-10-28T13:52:13.043769Z"
+   checksum="aa1dcd86066bdc7bd5f47ff7c74d47b6"
+   last-author="koron"
+   kind="file"
+   prop-time="2008-10-07T13:55:57.000000Z"/>
+<entry
+   committed-rev="133"
+   name="usr_04.jax"
+   text-time="2008-10-07T13:55:59.000000Z"
+   committed-date="2008-07-16T18:06:55.548210Z"
+   checksum="0a89480f83a82bba7894e5499c19f918"
+   last-author="hopper2"
+   kind="file"
+   prop-time="2008-10-07T13:55:57.000000Z"/>
+<entry
+   committed-rev="133"
+   name="usr_40.jax"
+   text-time="2008-10-07T13:55:59.000000Z"
+   committed-date="2008-07-16T18:06:55.548210Z"
+   checksum="1a35db4c422afef6853bffa170849916"
+   last-author="hopper2"
+   kind="file"
+   prop-time="2008-10-07T13:55:57.000000Z"/>
+<entry
+   committed-rev="133"
+   name="usr_05.jax"
+   text-time="2008-10-07T13:55:59.000000Z"
+   committed-date="2008-07-16T18:06:55.548210Z"
+   checksum="a6d1c2eb7b48a418f36063bbab27f964"
+   last-author="hopper2"
+   kind="file"
+   prop-time="2008-10-07T13:55:57.000000Z"/>
+<entry
+   committed-rev="133"
+   name="usr_41.jax"
+   text-time="2008-10-07T13:55:59.000000Z"
+   committed-date="2008-07-16T18:06:55.548210Z"
+   checksum="81e2ee537a0228308e6397827a0df483"
+   last-author="hopper2"
+   kind="file"
+   prop-time="2008-10-07T13:55:57.000000Z"/>
+<entry
+   committed-rev="118"
+   name="pi_tar.jax"
+   text-time="2008-10-07T13:55:59.000000Z"
+   committed-date="2007-10-28T13:52:13.043769Z"
+   checksum="ca379bfed370a8b097228eb3a21da9c3"
+   last-author="koron"
+   kind="file"
+   prop-time="2008-10-07T13:55:57.000000Z"/>
+<entry
+   committed-rev="133"
+   name="usr_06.jax"
+   text-time="2008-10-07T13:55:59.000000Z"
+   committed-date="2008-07-16T18:06:55.548210Z"
+   checksum="24f6e18f2a2a62df99efd197a2bdfdee"
+   last-author="hopper2"
+   kind="file"
+   prop-time="2008-10-07T13:55:57.000000Z"/>
+<entry
+   committed-rev="133"
+   name="usr_42.jax"
+   text-time="2008-10-07T13:55:59.000000Z"
+   committed-date="2008-07-16T18:06:55.548210Z"
+   checksum="8527bcc5d165d49393bf1b3c37a865e7"
+   last-author="hopper2"
+   kind="file"
+   prop-time="2008-10-07T13:55:57.000000Z"/>
+<entry
+   committed-rev="133"
+   name="usr_07.jax"
+   text-time="2008-10-07T13:55:59.000000Z"
+   committed-date="2008-07-16T18:06:55.548210Z"
+   checksum="7899c79b6de9d672ce6c1ed4f0ee459e"
+   last-author="hopper2"
+   kind="file"
+   prop-time="2008-10-07T13:55:57.000000Z"/>
+<entry
+   committed-rev="133"
+   name="usr_43.jax"
+   text-time="2008-10-07T13:55:59.000000Z"
+   committed-date="2008-07-16T18:06:55.548210Z"
+   checksum="2b7217a936d60b279d7a1f994c88b90d"
+   last-author="hopper2"
+   kind="file"
+   prop-time="2008-10-07T13:55:57.000000Z"/>
+<entry
+   committed-rev="133"
+   name="usr_08.jax"
+   text-time="2008-10-07T13:55:59.000000Z"
+   committed-date="2008-07-16T18:06:55.548210Z"
+   checksum="027ffdd12276d98584659c18294f0369"
+   last-author="hopper2"
+   kind="file"
+   prop-time="2008-10-07T13:55:57.000000Z"/>
+<entry
+   committed-rev="133"
+   name="usr_44.jax"
+   text-time="2008-10-07T13:55:59.000000Z"
+   committed-date="2008-07-16T18:06:55.548210Z"
+   checksum="609b8ce4d4702021a041e88c434585f0"
+   last-author="hopper2"
+   kind="file"
+   prop-time="2008-10-07T13:55:57.000000Z"/>
+<entry
+   committed-rev="133"
+   name="usr_09.jax"
+   text-time="2008-10-07T13:55:59.000000Z"
+   committed-date="2008-07-16T18:06:55.548210Z"
+   checksum="88a0104cef505fae6af4538e647ac114"
+   last-author="hopper2"
+   kind="file"
+   prop-time="2008-10-07T13:55:57.000000Z"/>
+<entry
+   committed-rev="133"
+   name="usr_45.jax"
+   text-time="2008-10-07T13:55:59.000000Z"
+   committed-date="2008-07-16T18:06:55.548210Z"
+   checksum="bfc93915183c182b42c99d421caed812"
+   last-author="hopper2"
+   kind="file"
+   prop-time="2008-10-07T13:55:57.000000Z"/>
+<entry
+   committed-rev="118"
+   name="pi_spec.jax"
+   text-time="2008-10-07T13:55:59.000000Z"
+   committed-date="2007-10-28T13:52:13.043769Z"
+   checksum="77d15f5532f693ef32d8b011a9e3c171"
+   last-author="koron"
+   kind="file"
+   prop-time="2008-10-07T13:55:57.000000Z"/>
+<entry
+   committed-rev="118"
+   name="if_sniff.jax"
+   text-time="2008-10-07T13:55:59.000000Z"
+   committed-date="2007-10-28T13:52:13.043769Z"
+   checksum="0d1f06fe125ea4f0f548a3dbdb01f191"
+   last-author="koron"
+   kind="file"
+   prop-time="2008-10-07T13:55:57.000000Z"/>
+<entry
+   committed-rev="118"
+   name="debugger.jax"
+   text-time="2008-10-07T13:55:59.000000Z"
+   committed-date="2007-10-28T13:52:13.043769Z"
+   checksum="3e062ae31e82c150c7a092ddd56b60f2"
+   last-author="koron"
+   kind="file"
+   prop-time="2008-10-07T13:55:57.000000Z"/>
+<entry
+   committed-rev="118"
+   name="if_cscop.jax"
+   text-time="2008-10-07T13:55:59.000000Z"
+   committed-date="2007-10-28T13:52:13.043769Z"
+   checksum="8fcaa8a31c0253e2a5b28ebc734c3a5f"
+   last-author="koron"
+   kind="file"
+   prop-time="2008-10-07T13:55:57.000000Z"/>
+<entry
+   committed-rev="118"
+   name="rileft.jax"
+   text-time="2008-10-07T13:55:59.000000Z"
+   committed-date="2007-10-28T13:52:13.043769Z"
+   checksum="624363ad4289670830ff3b1c7b7e3db3"
+   last-author="koron"
+   kind="file"
+   prop-time="2008-10-07T13:55:57.000000Z"/>
+<entry
+   committed-rev="118"
+   name="pi_zip.jax"
+   text-time="2008-10-07T13:55:59.000000Z"
+   committed-date="2007-10-28T13:52:13.043769Z"
+   checksum="b9b831476ae41844b09f2879ecb5d18b"
+   last-author="koron"
+   kind="file"
+   prop-time="2008-10-07T13:55:57.000000Z"/>
+<entry
+   committed-rev="118"
+   name="autocmd.jax"
+   text-time="2008-10-07T13:55:59.000000Z"
+   committed-date="2007-10-28T13:52:13.043769Z"
+   checksum="a8080f91cc503953afb8c3bfe4466256"
+   last-author="koron"
+   kind="file"
+   prop-time="2008-10-07T13:55:57.000000Z"/>
+<entry
+   committed-rev="118"
+   name="develop.jax"
+   text-time="2008-10-07T13:55:59.000000Z"
+   committed-date="2007-10-28T13:52:13.043769Z"
+   checksum="93001d62e43ecaeca74dd69b767ed91e"
+   last-author="koron"
+   kind="file"
+   prop-time="2008-10-07T13:55:57.000000Z"/>
+<entry
+   committed-rev="118"
+   name="pi_gzip.jax"
+   text-time="2008-10-07T13:55:59.000000Z"
+   committed-date="2007-10-28T13:52:13.043769Z"
+   checksum="76393138339ab8a9b8c60d894df99228"
+   last-author="koron"
+   kind="file"
+   prop-time="2008-10-07T13:55:57.000000Z"/>
+<entry
+   committed-rev="118"
+   name="os_mac.jax"
+   text-time="2008-10-07T13:55:59.000000Z"
+   committed-date="2007-10-28T13:52:13.043769Z"
+   checksum="5e6624bc0f62acbb14da3eb748f64b11"
+   last-author="koron"
+   kind="file"
+   prop-time="2008-10-07T13:55:57.000000Z"/>
+<entry
+   committed-rev="63"
+   name="vimtutor-ja.UTF-8.1"
+   text-time="2008-10-07T13:55:59.000000Z"
+   committed-date="2006-10-09T10:50:03.051541Z"
+   checksum="b20c75d7305cf63b7439e915dc518b97"
+   last-author="hopper2"
+   kind="file"
+   prop-time="2008-10-07T13:55:57.000000Z"/>
+<entry
+   committed-rev="118"
+   name="visual.jax"
+   text-time="2008-10-07T13:55:59.000000Z"
+   committed-date="2007-10-28T13:52:13.043769Z"
+   checksum="daa68ada7c49bb0ebe3f3dd9abffe091"
+   last-author="koron"
+   kind="file"
+   prop-time="2008-10-07T13:55:57.000000Z"/>
+<entry
+   committed-rev="118"
+   name="farsi.jax"
+   text-time="2008-10-07T13:55:59.000000Z"
+   committed-date="2007-10-28T13:52:13.043769Z"
+   checksum="35f9ecc4a47ef98ee79be4a65e005e43"
+   last-author="koron"
+   kind="file"
+   prop-time="2008-10-07T13:55:57.000000Z"/>
+<entry
+   committed-rev="130"
+   name="insert.jax"
+   text-time="2008-10-07T13:55:59.000000Z"
+   committed-date="2008-06-28T11:00:13.167714Z"
+   checksum="9127cd081ffd93572d7d33f065826c90"
+   last-author="mm"
+   kind="file"
+   prop-time="2008-10-07T13:55:57.000000Z"/>
+<entry
+   committed-rev="118"
+   name="motion.jax"
+   text-time="2008-10-07T13:55:59.000000Z"
+   committed-date="2007-10-28T13:52:13.043769Z"
+   checksum="58e18e80bff5b25f4fb268597293ae68"
+   last-author="koron"
+   kind="file"
+   prop-time="2008-10-07T13:55:57.000000Z"/>
+<entry
+   committed-rev="118"
+   name="hangulin.jax"
+   text-time="2008-10-07T13:55:59.000000Z"
+   committed-date="2007-10-28T13:52:13.043769Z"
+   checksum="ea9a341e15e3a829fe96c9d862af40f3"
+   last-author="koron"
+   kind="file"
+   prop-time="2008-10-07T13:55:57.000000Z"/>
+<entry
+   committed-rev="118"
+   name="recover.jax"
+   text-time="2008-10-07T13:55:59.000000Z"
+   committed-date="2007-10-28T13:52:13.043769Z"
+   checksum="82e8036b2f92478289331f2a2cf756e2"
+   last-author="koron"
+   kind="file"
+   prop-time="2008-10-07T13:55:57.000000Z"/>
+<entry
+   committed-rev="118"
+   name="quickref.jax"
+   text-time="2008-10-07T13:55:59.000000Z"
+   committed-date="2007-10-28T13:52:13.043769Z"
+   checksum="21d088c22354bbd97600fb61a888d43e"
+   last-author="koron"
+   kind="file"
+   prop-time="2008-10-07T13:55:57.000000Z"/>
+<entry
+   committed-rev="133"
+   name="usr_10.jax"
+   text-time="2008-10-07T13:55:59.000000Z"
+   committed-date="2008-07-16T18:06:55.548210Z"
+   checksum="5e03402a3edc188c3b805b5bcd640e9c"
+   last-author="hopper2"
+   kind="file"
+   prop-time="2008-10-07T13:55:57.000000Z"/>
+<entry
+   committed-rev="118"
+   name="version4.jax"
+   text-time="2008-10-07T13:55:59.000000Z"
+   committed-date="2007-10-28T13:52:13.043769Z"
+   checksum="4f2bb7a4cc29faa8f2e81791d218c070"
+   last-author="koron"
+   kind="file"
+   prop-time="2008-10-07T13:55:57.000000Z"/>
+<entry
+   committed-rev="133"
+   name="usr_11.jax"
+   text-time="2008-10-07T13:55:59.000000Z"
+   committed-date="2008-07-16T18:06:55.548210Z"
+   checksum="f0d3baace98a2018ea1cdc3a430e85f8"
+   last-author="hopper2"
+   kind="file"
+   prop-time="2008-10-07T13:55:57.000000Z"/>
+<entry
+   committed-rev="133"
+   name="usr_12.jax"
+   text-time="2008-10-07T13:55:59.000000Z"
+   committed-date="2008-07-16T18:06:55.548210Z"
+   checksum="422aefb759454960fe5be2d3c0ce7b51"
+   last-author="hopper2"
+   kind="file"
+   prop-time="2008-10-07T13:55:57.000000Z"/>
+<entry
+   committed-rev="118"
+   name="pi_vimball.jax"
+   text-time="2008-10-07T13:55:59.000000Z"
+   committed-date="2007-10-28T13:52:13.043769Z"
+   checksum="eb5db4ccd8fe9b6672b335b5f6fc1397"
+   last-author="koron"
+   kind="file"
+   prop-time="2008-10-07T13:55:57.000000Z"/>
+<entry
+   committed-rev="118"
+   name="if_perl.jax"
+   text-time="2008-10-07T13:55:59.000000Z"
+   committed-date="2007-10-28T13:52:13.043769Z"
+   checksum="7482525956fb2c31fbc495da7d634930"
+   last-author="koron"
+   kind="file"
+   prop-time="2008-10-07T13:55:57.000000Z"/>
+<entry
+   committed-rev="118"
+   name="gui_w16.jax"
+   text-time="2008-10-07T13:55:59.000000Z"
+   committed-date="2007-10-28T13:52:13.043769Z"
+   checksum="a63a0a12d67508eca1a8e855a7139f87"
+   last-author="koron"
+   kind="file"
+   prop-time="2008-10-07T13:55:57.000000Z"/>
+<entry
+   committed-rev="132"
+   name="usr_90.jax"
+   text-time="2008-10-07T13:55:59.000000Z"
+   committed-date="2008-07-16T15:30:26.136084Z"
+   checksum="59dec80915f5bbd9fdf85bf070b07b9b"
+   last-author="hopper2"
+   kind="file"
+   prop-time="2008-10-07T13:55:57.000000Z"/>
+<entry
+   committed-rev="125"
+   name="quickfix.jax"
+   text-time="2008-10-07T13:55:59.000000Z"
+   committed-date="2008-04-06T02:18:08.554314Z"
+   checksum="8a353831db243e25a85c588eb2180216"
+   last-author="hopper2"
+   kind="file"
+   prop-time="2008-10-07T13:55:57.000000Z"/>
+<entry
+   committed-rev="118"
+   name="ada.jax"
+   text-time="2008-10-07T13:55:59.000000Z"
+   committed-date="2007-10-28T13:52:13.043769Z"
+   checksum="1c6881ba0e9d8d1b40cf24eb2d5aa72d"
+   last-author="koron"
+   kind="file"
+   prop-time="2008-10-07T13:55:57.000000Z"/>
+<entry
+   committed-rev="118"
+   name="os_dos.jax"
+   text-time="2008-10-07T13:55:59.000000Z"
+   committed-date="2007-10-28T13:52:13.043769Z"
+   checksum="f97569eafc0be438cc74937b49d8b976"
+   last-author="koron"
+   kind="file"
+   prop-time="2008-10-07T13:55:57.000000Z"/>
+<entry
+   committed-rev="118"
+   name="syntax.jax"
+   text-time="2008-10-07T13:55:59.000000Z"
+   committed-date="2007-10-28T13:52:13.043769Z"
+   checksum="9324e0638b8609fbc0ca83bdb9a3d4a4"
+   last-author="koron"
+   kind="file"
+   prop-time="2008-10-07T13:55:57.000000Z"/>
+<entry
+   committed-rev="132"
+   name="help.jax"
+   text-time="2008-10-07T13:55:59.000000Z"
+   committed-date="2008-07-16T15:30:26.136084Z"
+   checksum="2ddf5bd2ba5e11a3d3c88fa1503b41f9"
+   last-author="hopper2"
+   kind="file"
+   prop-time="2008-10-07T13:55:58.000000Z"/>
+<entry
+   committed-rev="118"
+   name="various.jax"
+   text-time="2008-10-07T13:55:59.000000Z"
+   committed-date="2007-10-28T13:52:13.043769Z"
+   checksum="fdcf016065bb50b264d001427723b70c"
+   last-author="koron"
+   kind="file"
+   prop-time="2008-10-07T13:55:57.000000Z"/>
+<entry
+   committed-rev="118"
+   name="os_beos.jax"
+   text-time="2008-10-07T13:55:59.000000Z"
+   committed-date="2007-10-28T13:52:13.043769Z"
+   checksum="bb2342640d5408b54fcc018f9656e854"
+   last-author="koron"
+   kind="file"
+   prop-time="2008-10-07T13:55:58.000000Z"/>
+<entry
+   committed-rev="118"
+   name="remote.jax"
+   text-time="2008-10-07T13:55:59.000000Z"
+   committed-date="2007-10-28T13:52:13.043769Z"
+   checksum="0486787c5b7d2d4565dc7c2cfb55eb5a"
+   last-author="koron"
+   kind="file"
+   prop-time="2008-10-07T13:55:58.000000Z"/>
+<entry
+   committed-rev="118"
+   name="print.jax"
+   text-time="2008-10-07T13:55:59.000000Z"
+   committed-date="2007-10-28T13:52:13.043769Z"
+   checksum="0a90e1f91ba7f4769c3816e4c2ff5dc7"
+   last-author="koron"
+   kind="file"
+   prop-time="2008-10-07T13:55:58.000000Z"/>
+<entry
+   committed-rev="134"
+   name="pi_getscript.jax"
+   text-time="2008-10-07T13:55:59.000000Z"
+   committed-date="2008-07-17T14:53:08.184773Z"
+   checksum="875ecdf9bda1eb01e5fae862fb812799"
+   last-author="hopper2"
+   kind="file"
+   prop-time="2008-10-07T13:55:58.000000Z"/>
+<entry
+   committed-rev="118"
+   name="pi_paren.jax"
+   text-time="2008-10-07T13:55:59.000000Z"
+   committed-date="2007-10-28T13:52:13.043769Z"
+   checksum="1053959a9ca1a3961e729dd9f9556bac"
+   last-author="koron"
+   kind="file"
+   prop-time="2008-10-07T13:55:58.000000Z"/>
+<entry
+   committed-rev="118"
+   name="if_ole.jax"
+   text-time="2008-10-07T13:55:59.000000Z"
+   committed-date="2007-10-28T13:52:13.043769Z"
+   checksum="2880c91a8c5b3e1f269292704e39c3bb"
+   last-author="koron"
+   kind="file"
+   prop-time="2008-10-07T13:55:58.000000Z"/>
+<entry
+   committed-rev="118"
+   name="scroll.jax"
+   text-time="2008-10-07T13:55:59.000000Z"
+   committed-date="2007-10-28T13:52:13.043769Z"
+   checksum="705d92e454e291121e475494e4a3cdc0"
+   last-author="koron"
+   kind="file"
+   prop-time="2008-10-07T13:55:58.000000Z"/>
+<entry
+   committed-rev="118"
+   name="uganda.jax"
+   text-time="2008-10-07T13:55:59.000000Z"
+   committed-date="2007-10-28T13:52:13.043769Z"
+   checksum="c28fe481525058c7cfdb40a99e8e8b50"
+   last-author="koron"
+   kind="file"
+   prop-time="2008-10-07T13:55:58.000000Z"/>
+<entry
+   committed-rev="118"
+   name="sign.jax"
+   text-time="2008-10-07T13:55:59.000000Z"
+   committed-date="2007-10-28T13:52:13.043769Z"
+   checksum="7f1fa109597ae29e72d2c534350e6e5f"
+   last-author="koron"
+   kind="file"
+   prop-time="2008-10-07T13:55:58.000000Z"/>
+<entry
+   committed-rev="118"
+   name="os_risc.jax"
+   text-time="2008-10-07T13:55:59.000000Z"
+   committed-date="2007-10-28T13:52:13.043769Z"
+   checksum="d90004ea70b1c533a0009eeb863de2d1"
+   last-author="koron"
+   kind="file"
+   prop-time="2008-10-07T13:55:58.000000Z"/>
+<entry
+   committed-rev="118"
+   name="os_win32.jax"
+   text-time="2008-10-07T13:55:59.000000Z"
+   committed-date="2007-10-28T13:52:13.043769Z"
+   checksum="a47200c37947b71df9da7d9b82461f92"
+   last-author="koron"
+   kind="file"
+   prop-time="2008-10-07T13:55:58.000000Z"/>
+<entry
+   committed-rev="118"
+   name="os_os2.jax"
+   text-time="2008-10-07T13:55:59.000000Z"
+   committed-date="2007-10-28T13:52:13.043769Z"
+   checksum="ce3ad29c9214136c07e182c25acf8f15"
+   last-author="koron"
+   kind="file"
+   prop-time="2008-10-07T13:55:58.000000Z"/>
+<entry
+   committed-rev="118"
+   name="vi_diff.jax"
+   text-time="2008-10-07T13:55:59.000000Z"
+   committed-date="2007-10-28T13:52:13.043769Z"
+   checksum="aad2f830af321e8bea0881ba26f189c4"
+   last-author="koron"
+   kind="file"
+   prop-time="2008-10-07T13:55:58.000000Z"/>
+<entry
+   committed-rev="118"
+   name="index.jax"
+   text-time="2008-10-07T13:55:59.000000Z"
+   committed-date="2007-10-28T13:52:13.043769Z"
+   checksum="802d4d7fee70dfe8dfc555fac762d8b9"
+   last-author="koron"
+   kind="file"
+   prop-time="2008-10-07T13:55:58.000000Z"/>
+<entry
+   committed-rev="118"
+   name="os_mint.jax"
+   text-time="2008-10-07T13:55:59.000000Z"
+   committed-date="2007-10-28T13:52:13.043769Z"
+   checksum="4fcc88d7d0d78f2181c5f18ae7bf81b6"
+   last-author="koron"
+   kind="file"
+   prop-time="2008-10-07T13:55:58.000000Z"/>
+<entry
+   committed-rev="133"
+   name="usr_20.jax"
+   text-time="2008-10-07T13:55:59.000000Z"
+   committed-date="2008-07-16T18:06:55.548210Z"
+   checksum="0a45df1cd247d1dad392c8bb77f7e8fa"
+   last-author="hopper2"
+   kind="file"
+   prop-time="2008-10-07T13:55:58.000000Z"/>
+<entry
+   committed-rev="133"
+   name="usr_21.jax"
+   text-time="2008-10-07T13:55:59.000000Z"
+   committed-date="2008-07-16T18:06:55.548210Z"
+   checksum="012e0792d94d31c22f45e18b1e031825"
+   last-author="hopper2"
+   kind="file"
+   prop-time="2008-10-07T13:55:58.000000Z"/>
+<entry
+   committed-rev="63"
+   name="xxd-ja.UTF-8.1"
+   text-time="2008-10-07T13:55:59.000000Z"
+   committed-date="2006-10-09T10:50:03.051541Z"
+   checksum="2a3bf0562ae9f9d73594af3b6e1f5604"
+   last-author="hopper2"
+   kind="file"
+   prop-time="2008-10-07T13:55:58.000000Z"/>
+<entry
+   committed-rev="133"
+   name="usr_22.jax"
+   text-time="2008-10-07T13:55:59.000000Z"
+   committed-date="2008-07-16T18:06:55.548210Z"
+   checksum="3a56e65bcc0e5ad1f8f4f2fabac31810"
+   last-author="hopper2"
+   kind="file"
+   prop-time="2008-10-07T13:55:58.000000Z"/>
+<entry
+   committed-rev="133"
+   name="usr_23.jax"
+   text-time="2008-10-07T13:55:59.000000Z"
+   committed-date="2008-07-16T18:06:55.548210Z"
+   checksum="485f0b2fb93bf4c970305eefdb1c6c86"
+   last-author="hopper2"
+   kind="file"
+   prop-time="2008-10-07T13:55:58.000000Z"/>
+<entry
+   committed-rev="120"
+   name="digraph.jax"
+   text-time="2008-10-07T13:55:59.000000Z"
+   committed-date="2007-11-10T05:03:30.779143Z"
+   checksum="02d7c7d84e798dcdd64dd52b177a9048"
+   last-author="hopper2"
+   kind="file"
+   prop-time="2008-10-07T13:55:58.000000Z"/>
+<entry
+   committed-rev="133"
+   name="usr_24.jax"
+   text-time="2008-10-07T13:55:59.000000Z"
+   committed-date="2008-07-16T18:06:55.548210Z"
+   checksum="5331ba9986fd3776ff110cd7dbbffb00"
+   last-author="hopper2"
+   kind="file"
+   prop-time="2008-10-07T13:55:58.000000Z"/>
+<entry
+   committed-rev="118"
+   name="os_amiga.jax"
+   text-time="2008-10-07T13:55:59.000000Z"
+   committed-date="2007-10-28T13:52:13.043769Z"
+   checksum="ae8f114fb094fd7e8d19fe365eb9d9d3"
+   last-author="koron"
+   kind="file"
+   prop-time="2008-10-07T13:55:58.000000Z"/>
+<entry
+   committed-rev="118"
+   name="tips.jax"
+   text-time="2008-10-07T13:55:59.000000Z"
+   committed-date="2007-10-28T13:52:13.043769Z"
+   checksum="089ec4f2810d21473476b67e431d4a80"
+   last-author="koron"
+   kind="file"
+   prop-time="2008-10-07T13:55:58.000000Z"/>
+<entry
+   committed-rev="133"
+   name="usr_25.jax"
+   text-time="2008-10-07T13:55:59.000000Z"
+   committed-date="2008-07-16T18:06:55.548210Z"
+   checksum="b35909b6c4ab730dccf6232a59c9a5de"
+   last-author="hopper2"
+   kind="file"
+   prop-time="2008-10-07T13:55:58.000000Z"/>
+<entry
+   committed-rev="118"
+   name="quotes.jax"
+   text-time="2008-10-07T13:55:59.000000Z"
+   committed-date="2007-10-28T13:52:13.043769Z"
+   checksum="c64b196e87a872bcdcb29dbe83ccbc16"
+   last-author="koron"
+   kind="file"
+   prop-time="2008-10-07T13:55:58.000000Z"/>
+<entry
+   committed-rev="133"
+   name="usr_26.jax"
+   text-time="2008-10-07T13:55:59.000000Z"
+   committed-date="2008-07-16T18:06:55.548210Z"
+   checksum="39d3d868d5b64e90e347c4bc5bcf87f1"
+   last-author="hopper2"
+   kind="file"
+   prop-time="2008-10-07T13:55:58.000000Z"/>
+<entry
+   committed-rev="133"
+   name="usr_27.jax"
+   text-time="2008-10-07T13:55:59.000000Z"
+   committed-date="2008-07-16T18:06:55.548210Z"
+   checksum="db5e81234a841fb76c15134369b80ae7"
+   last-author="hopper2"
+   kind="file"
+   prop-time="2008-10-07T13:55:58.000000Z"/>
+<entry
+   committed-rev="133"
+   name="usr_28.jax"
+   text-time="2008-10-07T13:55:59.000000Z"
+   committed-date="2008-07-16T18:06:55.548210Z"
+   checksum="a49eaa933f7e02d6784a848c0e55afd3"
+   last-author="hopper2"
+   kind="file"
+   prop-time="2008-10-07T13:55:58.000000Z"/>
+<entry
+   committed-rev="133"
+   name="usr_29.jax"
+   text-time="2008-10-07T13:55:59.000000Z"
+   committed-date="2008-07-16T18:06:55.548210Z"
+   checksum="80e3cc26464481000ee35b1103a737c5"
+   last-author="hopper2"
+   kind="file"
+   prop-time="2008-10-07T13:55:58.000000Z"/>
+<entry
+   committed-rev="118"
+   name="message.jax"
+   text-time="2008-10-07T13:55:59.000000Z"
+   committed-date="2007-10-28T13:52:13.043769Z"
+   checksum="05d72f9de2e10ca3a51a7252b26accbb"
+   last-author="koron"
+   kind="file"
+   prop-time="2008-10-07T13:55:58.000000Z"/>
+<entry
+   committed-rev="118"
+   name="change.jax"
+   text-time="2008-10-07T13:55:59.000000Z"
+   committed-date="2007-10-28T13:52:13.043769Z"
+   checksum="7ea7c724e9cb6cb2822ace635729be91"
+   last-author="koron"
+   kind="file"
+   prop-time="2008-10-07T13:55:58.000000Z"/>
+<entry
+   committed-rev="118"
+   name="debug.jax"
+   text-time="2008-10-07T13:55:59.000000Z"
+   committed-date="2007-10-28T13:52:13.043769Z"
+   checksum="22e7a48f64b42d7fc73fc4c902e3420c"
+   last-author="koron"
+   kind="file"
+   prop-time="2008-10-07T13:55:58.000000Z"/>
+<entry
+   committed-rev="118"
+   name="windows.jax"
+   text-time="2008-10-07T13:55:59.000000Z"
+   committed-date="2007-10-28T13:52:13.043769Z"
+   checksum="2ba974ef934b4a587a3a865ec834af32"
+   last-author="koron"
+   kind="file"
+   prop-time="2008-10-07T13:55:58.000000Z"/>
+<entry
+   committed-rev="118"
+   name="tagsrch.jax"
+   text-time="2008-10-07T13:55:59.000000Z"
+   committed-date="2007-10-28T13:52:13.043769Z"
+   checksum="a28e13b99248a98f83b57cadd556ead7"
+   last-author="koron"
+   kind="file"
+   prop-time="2008-10-07T13:55:58.000000Z"/>
+<entry
+   committed-rev="57"
+   name="vimdiff-ja.UTF-8.1"
+   text-time="2008-10-07T13:55:59.000000Z"
+   committed-date="2006-09-30T02:29:03.873934Z"
+   checksum="b4cbbf873c38b3316f99d14fead5bd0a"
+   last-author="hopper2"
+   kind="file"
+   prop-time="2008-10-07T13:55:58.000000Z"/>
+<entry
+   committed-rev="118"
+   name="mlang.jax"
+   text-time="2008-10-07T13:55:59.000000Z"
+   committed-date="2007-10-28T13:52:13.043769Z"
+   checksum="e8c764ca528a628b23bd69464815e878"
+   last-author="koron"
+   kind="file"
+   prop-time="2008-10-07T13:55:58.000000Z"/>
+<entry
+   committed-rev="118"
+   name="howto.jax"
+   text-time="2008-10-07T13:55:59.000000Z"
+   committed-date="2007-10-28T13:52:13.043769Z"
+   checksum="31dfd02d0ea2a51e2fd17d63d91e179f"
+   last-author="koron"
+   kind="file"
+   prop-time="2008-10-07T13:55:58.000000Z"/>
+<entry
+   committed-rev="118"
+   name="if_tcl.jax"
+   text-time="2008-10-07T13:55:59.000000Z"
+   committed-date="2007-10-28T13:52:13.043769Z"
+   checksum="bfe8b2a3adb4459d8c8443ca914d30f3"
+   last-author="koron"
+   kind="file"
+   prop-time="2008-10-07T13:55:58.000000Z"/>
+<entry
+   committed-rev="118"
+   name="tabpage.jax"
+   text-time="2008-10-07T13:55:59.000000Z"
+   committed-date="2007-10-28T13:52:13.043769Z"
+   checksum="f2c25f74c691a8c14992be1cf0a69f83"
+   last-author="koron"
+   kind="file"
+   prop-time="2008-10-07T13:55:58.000000Z"/>
+<entry
+   committed-rev="63"
+   name="vim-ja.UTF-8.1"
+   text-time="2008-10-07T13:55:59.000000Z"
+   committed-date="2006-10-09T10:50:03.051541Z"
+   checksum="5c2673b789f643fa94e2efbca3586028"
+   last-author="hopper2"
+   kind="file"
+   prop-time="2008-10-07T13:55:58.000000Z"/>
+<entry
+   committed-rev="118"
+   name="undo.jax"
+   text-time="2008-10-07T13:55:59.000000Z"
+   committed-date="2007-10-28T13:52:13.043769Z"
+   checksum="f6529ca9f3e4d9c123424b66167daf7b"
+   last-author="koron"
+   kind="file"
+   prop-time="2008-10-07T13:55:58.000000Z"/>
+<entry
+   committed-rev="118"
+   name="os_qnx.jax"
+   text-time="2008-10-07T13:55:59.000000Z"
+   committed-date="2007-10-28T13:52:13.043769Z"
+   checksum="aef9dda2ccb295194927aba30e9163c8"
+   last-author="koron"
+   kind="file"
+   prop-time="2008-10-07T13:55:58.000000Z"/>
+<entry
+   committed-rev="118"
+   name="diff.jax"
+   text-time="2008-10-07T13:55:59.000000Z"
+   committed-date="2007-10-28T13:52:13.043769Z"
+   checksum="d278b5cf6f42afa7a94656e407f94583"
+   last-author="koron"
+   kind="file"
+   prop-time="2008-10-07T13:55:58.000000Z"/>
+<entry
+   committed-rev="133"
+   name="usr_30.jax"
+   text-time="2008-10-07T13:55:59.000000Z"
+   committed-date="2008-07-16T18:06:55.548210Z"
+   checksum="b03df46b440b13415b1ff9b2c24dfac3"
+   last-author="hopper2"
+   kind="file"
+   prop-time="2008-10-07T13:55:58.000000Z"/>
+<entry
+   committed-rev="133"
+   name="usr_31.jax"
+   text-time="2008-10-07T13:55:59.000000Z"
+   committed-date="2008-07-16T18:06:55.548210Z"
+   checksum="b3995fdf386fd8477fae95e3698bdd31"
+   last-author="hopper2"
+   kind="file"
+   prop-time="2008-10-07T13:55:58.000000Z"/>
+<entry
+   committed-rev="118"
+   name="workshop.jax"
+   text-time="2008-10-07T13:55:59.000000Z"
+   committed-date="2007-10-28T13:52:13.043769Z"
+   checksum="3ba31ca802081f60bef4f949c8f791cb"
+   last-author="koron"
+   kind="file"
+   prop-time="2008-10-07T13:55:58.000000Z"/>
+<entry
+   committed-rev="118"
+   name="pattern.jax"
+   text-time="2008-10-07T13:55:59.000000Z"
+   committed-date="2007-10-28T13:52:13.043769Z"
+   checksum="0906f9cc94259addac401263d22a5fd4"
+   last-author="koron"
+   kind="file"
+   prop-time="2008-10-07T13:55:58.000000Z"/>
+<entry
+   committed-rev="118"
+   name="map.jax"
+   text-time="2008-10-07T13:55:59.000000Z"
+   committed-date="2007-10-28T13:52:13.043769Z"
+   checksum="815d9fbd53b823120ea52fc15346b75f"
+   last-author="koron"
+   kind="file"
+   prop-time="2008-10-07T13:55:58.000000Z"/>
+<entry
+   committed-rev="118"
+   name="gui_x11.jax"
+   text-time="2008-10-07T13:55:59.000000Z"
+   committed-date="2007-10-28T13:52:13.043769Z"
+   checksum="7fea9d8f52bc959ca77b9b92759e8718"
+   last-author="koron"
+   kind="file"
+   prop-time="2008-10-07T13:55:58.000000Z"/>
+<entry
+   committed-rev="133"
+   name="usr_32.jax"
+   text-time="2008-10-07T13:55:59.000000Z"
+   committed-date="2008-07-16T18:06:55.548210Z"
+   checksum="d32df49aa96be468882fa6d07b01dd90"
+   last-author="hopper2"
+   kind="file"
+   prop-time="2008-10-07T13:55:58.000000Z"/>
+<entry
+   committed-rev="133"
+   name="usr_toc.jax"
+   text-time="2008-10-07T13:55:59.000000Z"
+   committed-date="2008-07-16T18:06:55.548210Z"
+   checksum="62bcb91dcef9120c2a7e81e9d98efe9c"
+   last-author="hopper2"
+   kind="file"
+   prop-time="2008-10-07T13:55:58.000000Z"/>
+<entry
+   committed-rev="118"
+   name="gui_w32.jax"
+   text-time="2008-10-07T13:55:59.000000Z"
+   committed-date="2007-10-28T13:52:13.043769Z"
+   checksum="57ff479754bc13e22e544eb9d248d353"
+   last-author="koron"
+   kind="file"
+   prop-time="2008-10-07T13:55:58.000000Z"/>
+<entry
+   committed-rev="118"
+   name="mbyte.jax"
+   text-time="2008-10-07T13:55:59.000000Z"
+   committed-date="2007-10-28T13:52:13.043769Z"
+   checksum="aafde1116629a8e4a48b97c28c933f62"
+   last-author="koron"
+   kind="file"
+   prop-time="2008-10-07T13:55:58.000000Z"/>
+<entry
+   committed-rev="118"
+   name="repeat.jax"
+   text-time="2008-10-07T13:55:59.000000Z"
+   committed-date="2007-10-28T13:52:13.043769Z"
+   checksum="d5607780dfc0b54487a987e041b2efef"
+   last-author="koron"
+   kind="file"
+   prop-time="2008-10-07T13:55:58.000000Z"/>
+<entry
+   committed-rev="118"
+   name="filetype.jax"
+   text-time="2008-10-07T13:55:59.000000Z"
+   committed-date="2007-10-28T13:52:13.043769Z"
+   checksum="3b0c22f4a0f87a205d920f88ee7af049"
+   last-author="koron"
+   kind="file"
+   prop-time="2008-10-07T13:55:58.000000Z"/>
+<entry
+   committed-rev="118"
+   name="indent.jax"
+   text-time="2008-10-07T13:55:59.000000Z"
+   committed-date="2007-10-28T13:52:13.043769Z"
+   checksum="6a46f2b908d23586899e2316b46e2569"
+   last-author="koron"
+   kind="file"
+   prop-time="2008-10-07T13:55:58.000000Z"/>
+<entry
+   committed-rev="118"
+   name="editing.jax"
+   text-time="2008-10-07T13:55:59.000000Z"
+   committed-date="2007-10-28T13:52:13.043769Z"
+   checksum="487d6ca86ed87152945268203efec626"
+   last-author="koron"
+   kind="file"
+   prop-time="2008-10-07T13:55:58.000000Z"/>
+<entry
+   committed-rev="130"
+   name="os_unix.jax"
+   text-time="2008-10-07T13:55:59.000000Z"
+   committed-date="2008-06-28T11:00:13.167714Z"
+   checksum="a8eda8bb5e07ebf199df88042dbda166"
+   last-author="mm"
+   kind="file"
+   prop-time="2008-10-07T13:55:58.000000Z"/>
+<entry
+   committed-rev="118"
+   name="gui.jax"
+   text-time="2008-10-07T13:55:59.000000Z"
+   committed-date="2007-10-28T13:52:13.043769Z"
+   checksum="31153d5b2626aa2f7997e47ba4cf4c82"
+   last-author="koron"
+   kind="file"
+   prop-time="2008-10-07T13:55:58.000000Z"/>
+<entry
+   committed-rev="126"
+   name="fold.jax"
+   text-time="2008-10-07T13:55:59.000000Z"
+   committed-date="2008-04-18T14:55:55.820241Z"
+   checksum="cc8370383bd45b1bca9342ae114fdc69"
+   last-author="hopper2"
+   kind="file"
+   prop-time="2008-10-07T13:55:58.000000Z"/>
+<entry
+   committed-rev="118"
+   name="os_msdos.jax"
+   text-time="2008-10-07T13:55:59.000000Z"
+   committed-date="2007-10-28T13:52:13.043769Z"
+   checksum="b32ef7f5f604c6710a2db8b69d85e3b3"
+   last-author="koron"
+   kind="file"
+   prop-time="2008-10-07T13:55:58.000000Z"/>
+<entry
+   committed-rev="118"
+   name="pi_netrw.jax"
+   text-time="2008-10-07T13:55:59.000000Z"
+   committed-date="2007-10-28T13:52:13.043769Z"
+   checksum="5be10ba1d2bf4bccda474f003496e848"
+   last-author="koron"
+   kind="file"
+   prop-time="2008-10-07T13:55:58.000000Z"/>
+<entry
+   committed-rev="131"
+   name="eval.jax"
+   text-time="2008-10-07T13:55:59.000000Z"
+   committed-date="2008-06-29T16:12:07.890971Z"
+   checksum="f729fde44f84c3ceb99980af5ba29e63"
+   last-author="mm"
+   kind="file"
+   prop-time="2008-10-07T13:55:58.000000Z"/>
+<entry
+   committed-rev="116"
+   name="options.jax"
+   text-time="2008-10-07T13:55:59.000000Z"
+   committed-date="2007-10-28T12:27:33.879195Z"
+   checksum="2a4a203992876ad45f3f5f89c091aa92"
+   last-author="koron"
+   kind="file"
+   prop-time="2008-10-07T13:55:59.000000Z"/>
+<entry
+   committed-rev="118"
+   name="intro.jax"
+   text-time="2008-10-07T13:55:59.000000Z"
+   committed-date="2007-10-28T13:52:13.043769Z"
+   checksum="356eeae907d055c29f751ff2036c5d78"
+   last-author="koron"
+   kind="file"
+   prop-time="2008-10-07T13:55:59.000000Z"/>
+<entry
+   committed-rev="118"
+   name="starting.jax"
+   text-time="2008-10-07T13:55:59.000000Z"
+   committed-date="2007-10-28T13:52:13.043769Z"
+   checksum="597c588124a3d29a4580c1e70932d365"
+   last-author="koron"
+   kind="file"
+   prop-time="2008-10-07T13:55:59.000000Z"/>
+</wc-entries>

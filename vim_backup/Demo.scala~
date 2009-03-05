@@ -1,0 +1,9 @@
+object Demo {
+  import javax.swing.{JFrame=>Mado}
+  import javax.swint.JFrame._
+
+  val mameMado = new Mado("豆蔵")
+    mameMado setSize(200,150)
+    mameMado setDefaultCloseOperation(EXIT_ON_CLOSE)
+    mameMado setVisible(true)
+}

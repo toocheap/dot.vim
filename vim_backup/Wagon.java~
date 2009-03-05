@@ -1,0 +1,5 @@
+public class Wagon extend Car {
+    public Wagon(String name) {
+        super(name);
+    }
+}

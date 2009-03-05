@@ -1,0 +1,29 @@
+"
+" gvimrc
+"
+" ==================== フォント設定 ==================== "
+" 普通のMac版GVim
+if has('gui_mac')
+    set guifont=Osaka-Mono:h14
+"   set guifontwide=Osaka-Mono:h14
+"   set guifont=Yutapon_coding_Regular:h14:cUTF-8
+    set showtabline=2
+endif
+
+" 実験版MacVim
+if has('gui_macvim')
+    set showtabline=2
+endif
+" ==================== 画面表示設定 ==================== "
+set title       " タイトル表示
+set linespace=4 " 行間
+set columns=130 " 幅
+set lines=50    " 高さ
+
+if has('mac')
+    set guioptions+=aeT
+endif
+set transparency=240
+set colorscheme desert
+
+

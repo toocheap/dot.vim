@@ -1,0 +1,24 @@
+" 1.2 (created: 2008/08/16 18:51:52)
+" Mappings
+
+" j k の移動量を増やす
+noremap j 5<C-e>
+noremap k 5<C-y>
+
+" h/l で履歴の異動を行う
+noremap h <A-Left>
+noremap l <A-Right>
+
+"H/L でtabの移動を行う
+noremap H gT
+noremap L gt
+
+" Options
+set guioptions=mTb
+
+" Abbreviations
+set wildoptions=auto
+
+source! ~/.vimperatorrc.local
+
+" vim: set ft=vimperator:
